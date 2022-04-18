@@ -102,7 +102,7 @@ def main():
 main()
 def main():
 qs1 = int(input("Cual es tu genero? "))
-    val = any
+    val = Cisgénero
     if(ans == val):
         correct + 1
     else:
