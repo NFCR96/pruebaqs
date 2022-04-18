@@ -91,16 +91,17 @@ def main():
             st.radio(qs14[num][0], key=num+1, options=qs14[num][1])
             st.radio(qs15[num][0], key=num+1, options=qs15[num][1])
               
-            choices1 = st.ratio('increment')
-            if choices1:
-                count +=1
-                
-              
+            
             if st.form_submit_button():
                 st.session_state.num += 1
                 if st.session_state.num >= 3:
                     st.session_state.num = 0 
                 placeholder.empty()
+                
+                choices1 = st.ratio('increment')
+            if choices1:
+                count +=1
+                
             else:
                 st.stop()
 main()
