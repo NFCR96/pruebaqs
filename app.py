@@ -101,5 +101,9 @@ def main():
 
 main()
 
+import collections
+print (collections.Counter(['Llagas', 'Indoloras', 'dolorosas', 'Otro']))
+print (collections.Counter({'Llagas': 20, 'Indoloras': 10, 'dolorosas':10, 'Otro':1}))
+print(collections.Counter(=Llagas=20, Indoloras=10, dolorosas=10, Otro=1))
 
   
