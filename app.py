@@ -98,30 +98,7 @@ def main():
             else:
                 st.stop()
 
-
-main()
-def main():
-ans = int(input("Cual es tu genero? "))
-    val = Crossdresser
-    if(ans == val):
-        correct + 1
-    else:
-        incorrect + 1
- 
-def calcGrade(correct):
-    grade = (correct * 100)
-    print("Numeric Grade " + str(grade))
-    if(grade > 90):
-        letterGrade = "A"
-    if(grade > 80):
-        letterGrade = "B"
-    if(grade < 70):
-        letterGrade = "C"
-    if(grade < 69):
-        letterGrade = "F"
-    print()
-    print("Letter Grade " + str(letterGrade))
-
-main()
-
+Genero = st.radio(qs1[num][0], key=num+1, options=qs1[num][1])
+if genero == 'Drag king':
+    st.write('You selected comedy.')
   
