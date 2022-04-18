@@ -100,10 +100,28 @@ def main():
 
 
 main()
+def main():
+qs1 = int(input("Cual es tu genero? "))
+    val = any
+    if(ans == val):
+        correct + 1
+    else:
+        incorrect + 1
+ 
+def calcGrade(correct):
+    grade = (correct * 100)
+    print("Numeric Grade " + str(grade))
+    if(grade > 90):
+        letterGrade = "A"
+    if(grade > 80):
+        letterGrade = "B"
+    if(grade < 70):
+        letterGrade = "C"
+    if(grade < 69):
+        letterGrade = "F"
+    print()
+    print("Letter Grade " + str(letterGrade))
 
-import collections
-print (collections.Counter(['Llagas', 'Indoloras', 'dolorosas', 'Otro']))
-print (collections.Counter({'Llagas': 20, 'Indoloras': 10, 'dolorosas':10, 'Otro':1}))
-print(collections.Counter(=Llagas=20, Indoloras=10, dolorosas=10, Otro=1))
+main()
 
   
