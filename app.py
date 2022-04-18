@@ -97,6 +97,7 @@ def main():
                 placeholder.empty()
             else:
                 st.stop()
+main()
 
 Genero = st.radio(qs1[num][0], key=num+1, options=qs1[num][1])
 if Genero == 'Drag king':
