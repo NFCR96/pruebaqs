@@ -1,3 +1,4 @@
+import streamlit as st
 import time
 
 my_bar = st.progress(0)
