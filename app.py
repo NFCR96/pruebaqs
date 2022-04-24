@@ -29,8 +29,5 @@ def main():
             if st.form_submit_button():
                
 
-count = 0
-count1 = count + cisgenero
-print(count1)
 
    
