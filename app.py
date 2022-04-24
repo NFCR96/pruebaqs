@@ -8,6 +8,8 @@ if 'num' not in st.session_state:
 choices1 = ['Cisgénero', 'Crossdresser', 'Drag king', 'Drag queen', 'Disforia de género', 'Fluidez de género', 'género no binario', 'Genderqueer ', 'Intersexual', 'Transgénero', 'Hombre transgénero', 'Mujer transgénero ', 'Gay', 'Inconformidad de género', 'Lesbiana', 'Intersexual', 'Poliamoroso', 'Femenino', 'Masculino', 'Chico', 'Chica', 'Tomboy', 'Hombre joven', 'Mujer joven', 'Hombre transexual', 'Mujer transexual',
  'Bigénero', 'Intersexual', 'Sin género', 'No estoy seguro', 'Prefiero no decir', 'Otro']
 
+cisgenero = 1
+
 
 
 qs1 = [('Cual es tu genero?', choices1),
@@ -35,5 +37,8 @@ def main():
 
 main()
 
+count = 0
+count1 = count + cisgenero
+print(count1 = count + cisgenero)
 
    
