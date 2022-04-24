@@ -27,6 +27,19 @@ def main():
 
                       
             if st.form_submit_button():
+                           st.session_state.num += 1
+                if st.session_state.num >= 3:
+                    st.session_state.num = 0 
+                placeholder.empty()
+            else:
+                st.stop()
+
+
+main()
+
+if  if st.form_submit_button():
+    count = 0 +  st.radio(qs1[num][0], key=num+1, options=qs1[num][1])
+    
                
 
 
