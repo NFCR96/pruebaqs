@@ -27,18 +27,10 @@ def main():
 
                       
             if st.form_submit_button():
-                st.session_state.num += 1
-                if st.session_state.num >= 3:
-                    st.session_state.num = 0 
-                placeholder.empty()
-            else:
-                st.stop()
-
-
-main()
+               
 
 count = 0
 count1 = count + cisgenero
-print(count1 = count + cisgenero)
+print(count1)
 
    
