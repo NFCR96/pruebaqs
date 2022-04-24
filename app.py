@@ -1,7 +1,7 @@
 import streamlit as st
 option = st.selectbox(
-     'How would you like to be contacted?',
-     ('Email', 'Home phone', 'Mobile phone'))
-if 'Email' in option:
-     st.write('cual es tu email')
+     'Presentas alguno de estos sintomas?',
+     ('Enrojecimiento', 'Picazon', 'Dolor'))
+if 'Picazon' in option:
+     st.write('bebe panda')
    
