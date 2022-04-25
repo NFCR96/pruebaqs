@@ -176,3 +176,9 @@ if my_page == "Referencias bibliográficas":
     st.title("Referencias bibliográficas")
     st.write("")
     st.write("")
+[theme]
+primaryColor="#purple"
+backgroundColor="#white"
+secondaryBackgroundColor="#blue"
+textColor="#black"
+font="sans serif"
