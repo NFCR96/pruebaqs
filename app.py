@@ -12,6 +12,7 @@ if 'Irritacion, Enrojecimiento o Ardor' in option:
      st.write('Este sintoma puede debe a varias causas entre las cuales la presencia de alguna infeccion o la portacion de microrganismos como el causante de la Trichomoniasis por el parasito Tricomonas vaginallis o la infeccion por balanianitis causada por contacto con el hongo Candida albicans, ambas presentan enrojecimiento, picazón y sensacion de ardor en el pene como al orinar o mantener relaciones sexuales. En ambos casos este es ocasionado por el contacto sexual vaginal con parejas portadoras de los microoganismos señalados que presentan Candidiasis y Trichomoniasis. ¿Tratamiento? en ambos casos necesitaras visitar a tu medico se aplicara el tratamiento correspondiente dependiendo de la naturaleza del patogeno. ¡POR FAVOR, CHECATE!')
 
      #Seccion de Mujeres
+     import streamlit as st
 option = st.selectbox(
      'Presentas alguno de estos sintomas?',
      ('Llagas', 'Hinchazon', 'Verrugas', 'Irritacion, Enrojecimiento o Ardor'))
